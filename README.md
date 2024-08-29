@@ -1,6 +1,6 @@
 # TinyCodeExecutor
 
-This repository contains scripts for conducting scalability experiments related to the Code Execution with Tiny Language Models Project. The primary goal of this repository is to ensure experiments can be easily reproduced or redone in the future. By running a few key scripts, you can generate all the results necessary for the associated paper.
+This repository contains scripts for conducting  experiments related to the Code Execution with Tiny Language Models Project. The primary goal of this repository is to ensure experiments can be easily reproduced or redone in the future. By running a few key scripts, you can generate all the results necessary for the associated paper.
 
 ## Repository Structure
 
