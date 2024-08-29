@@ -1,0 +1,8 @@
+2024-08-28 09:18:36,582 INFO    StreamThr :1241858 [internal.py:wandb_internal():86] W&B internal server running at pid: 1241858, started at: 2024-08-28 09:18:36.576613
+2024-08-28 09:18:36,591 DEBUG   HandlerThread:1241858 [handler.py:handle_request():146] handle_request: status
+2024-08-28 09:18:36,591 INFO    WriterThread:1241858 [datastore.py:open_for_write():87] open: /scratch/mn3620/Data-Scaling/wandb/run-20240828_091836-oe3yidsj/run-oe3yidsj.wandb
+2024-08-28 09:18:36,592 DEBUG   SenderThread:1241858 [sender.py:send():379] send: header
+2024-08-28 09:18:36,701 DEBUG   HandlerThread:1241858 [handler.py:handle_request():146] handle_request: shutdown
+2024-08-28 09:18:36,701 INFO    HandlerThread:1241858 [handler.py:finish():866] shutting down handler
+2024-08-28 09:18:37,592 INFO    WriterThread:1241858 [datastore.py:close():296] close: /scratch/mn3620/Data-Scaling/wandb/run-20240828_091836-oe3yidsj/run-oe3yidsj.wandb
+2024-08-28 09:18:37,592 INFO    SenderThread:1241858 [sender.py:finish():1546] shutting down sender

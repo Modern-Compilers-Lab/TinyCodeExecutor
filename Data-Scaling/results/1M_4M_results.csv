@@ -1,0 +1,576 @@
+Prompt,Real_Results,Generated_Results
+"a = 185
+c = 225
+while a <= 188 :
+	print(c)
+	a = a + 2
+# output","[225.0, 225.0]","[225.0, 225.0]"
+"b = 46
+a = 5
+while a >= 4 :
+	print(a)
+	a = a - 2
+# output",[5.0],"[56.0, 56.0, 56.0]"
+"e = 137
+e = 21
+while e >= 16 :
+	print(e)
+	e = e - 3
+# output","[21.0, 18.0]","[21.0, 18.0]"
+"a = 9
+b = 18
+while b >= 13 :
+	print(b)
+	b = b - 2
+# output","[18.0, 16.0, 14.0]","[103.0, 103.0]"
+"c = 249
+a = 218
+a = 205
+print(a / a)
+# output",[1.0],[0.6178761537061178]
+"a = 231
+e = 161
+if a >= 26 :
+	print(e)
+# output",[161.0],[161.0]
+"a = 160
+e = 6
+while e < 9 :
+	print(a)
+	e = e + 2
+# output","[160.0, 160.0]",[4.0]
+"d = 242
+e = 116
+e = 151
+for e in range(211, 216, 3) :
+	print(d)
+# output","[242.0, 242.0]","[211.0, 214.0]"
+"d = 246
+d = 117
+b = 207
+if b >= d :
+	print(b)
+else :
+	print(b)
+# output",[207.0],[207.0]
+"c = 17
+c = 148
+b = 75
+for c in range(164, 167) :
+	print(c)
+# output","[164.0, 165.0, 166.0]","[75.0, 75.0, 75.0]"
+"d = 58
+c = 159
+if d == 10 :
+	print(d)
+# output",[],[]
+"b = 181
+a = 45
+d = 180
+if b < a :
+	print(d)
+else :
+	print(b)
+# output",[181.0],[45.0]
+"d = 255
+for d in range(57, 60, 2) :
+	print(d)
+# output","[57.0, 59.0]","[57.0, 59.0]"
+"c = 180
+d = 147
+a = 192
+while c < 181 :
+	print(d)
+	c = c + 1
+# output",[147.0],[192.0]
+"d = 78
+e = 9
+while d >= 75 :
+	print(e)
+	d = d - 2
+# output","[9.0, 9.0]","[78.0, 76.0, 76.0]"
+"e = 187
+d = 47
+for e in range(88, 93, 2) :
+	print(e)
+# output","[88.0, 90.0, 92.0]","[47.0, 47.0, 47.0]"
+"e = 195
+e = 201
+a = 225
+for a in range(104, 105) :
+	print(e)
+# output",[201.0],[104.0]
+"b = 248
+b = 23
+for b in range(172, 173, 1) :
+	print(b)
+# output",[172.0],[162.0]
+"c = 207
+c = c / 33
+print(c - c)
+# output",[0.0],[44.0]
+"a = 222
+c = 208
+c = 156
+for a in range(137, 138, 2) :
+	print(a)
+# output",[137.0],[137.0]
+"e = 243
+while e > 242 :
+	print(e)
+	e = e - 2
+# output",[243.0],[243.0]
+"a = 165
+d = 27
+a = 105
+while a >= 104 :
+	print(a)
+	a = a - 1
+# output","[105.0, 104.0]","[105.0, 104.0]"
+"b = 46
+e = 236
+b = 216
+for e in range(50, 53) :
+	print(b)
+# output","[216.0, 216.0, 216.0]","[236.0, 236.0, 236.0]"
+"e = 120
+a = 200
+c = 244
+if e != 50 :
+	print(a)
+else :
+	print(c)
+# output",[200.0],[244.0]
+"d = 167
+if d == 5 :
+	print(d)
+else :
+	print(d)
+# output",[167.0],[167.0]
+"a = 200
+e = 227
+b = a * e
+print(e + a)
+# output",[427.0],[276.0]
+"a = 249
+b = 160
+while b > 159 :
+	print(b)
+	b = b - 1
+# output",[160.0],[160.0]
+"c = 148
+a = 53
+while a < 54 :
+	print(c)
+	a = a + 1
+# output",[148.0],[53.0]
+"d = 196
+d = 156
+d = 155
+for d in range(240, 241, 2) :
+	print(d)
+# output",[240.0],[155.0]
+"d = 100
+e = 95
+if e >= 77 :
+	print(d)
+elif  e > e :
+	print(d)
+else :
+	print(e)
+# output",[100.0],[100.0]
+"c = 90
+d = 72
+c = 123
+while c >= 120 :
+	print(c)
+	c = c - 2
+# output","[123.0, 121.0]","[123.0, 121.0]"
+"b = 180
+e = 191
+a = 201
+print(b / a)
+# output",[0.8955223880597015],[1.0]
+"d = 130
+d = 38
+if d < d :
+	print(d)
+else :
+	print(d)
+# output",[38.0],[121.0]
+"a = 162
+e = 255
+if not a == 110 :
+	print(a)
+elif e > a :
+	print(e)
+else :
+	print(e)
+# output",[162.0],[255.0]
+"e = 189
+d = 43
+while e > 184 :
+	print(d)
+	e = e - 2
+# output","[43.0, 43.0, 43.0]","[189.0, 187.0, 185.0]"
+"d = 106
+b = 223
+d = 248
+for d in range(213, 218, 3) :
+	print(d)
+# output","[213.0, 216.0]","[213.0, 216.0]"
+"a = 243
+b = 207
+d = 119
+print(a + d)
+# output",[362.0],[421.0]
+"d = 50
+c = 205
+if not d >= 36 :
+	print(c)
+elif  c > c :
+	print(c)
+else :
+	print(c)
+# output",[205.0],[205.0]
+"b = 126
+b = 127
+c = b / 158
+print(c)
+# output",[0.8037974683544303],[0.237315789428067]
+"c = 125
+c = 117
+d = 127
+while d < 132 :
+	print(d)
+	d = d + 3
+# output","[127.0, 130.0]","[127.0, 130.0]"
+"b = 154
+if  b < 126 :
+	print(b)
+elif b == b :
+	print(b)
+else :
+	print(b)
+# output",[154.0],[154.0]
+"c = 196
+c = 175
+print(c / c)
+# output",[1.0],[1.0]
+"c = 137
+e = 177
+for c in range(91, 96, 3) :
+	print(c)
+# output","[91.0, 94.0]","[91.0, 94.0]"
+"e = 100
+b = 212
+e = 111
+print(b * 129)
+# output",[27348.0],[42157.0]
+"d = 165
+d = d + 15
+print(d / d)
+# output",[1.0],[1.0]
+"a = 27
+for a in range(223, 226) :
+	print(a)
+# output","[223.0, 224.0, 225.0]","[27.0, 27.0, 27.0]"
+"a = 61
+e = 185
+while a <= 62 :
+	print(e)
+	a = a + 2
+# output",[185.0],[185.0]
+"c = 85
+d = 167
+if not d == c :
+	print(c)
+# output",[85.0],[85.0]
+"e = 170
+e = 79
+d = 12
+c = e - d
+print(d - 200)
+# output",[-188.0],[110.0]
+"c = 102
+for c in range(170, 173, 2) :
+	print(c)
+# output","[170.0, 172.0]","[192.0, 192.0]"
+"c = 100
+e = 27
+e = 111
+if c == 112 :
+	print(e)
+else :
+	print(c)
+# output",[100.0],[27.0]
+"a = 243
+a = 31
+e = 148 / a
+print(a - 230)
+# output",[-199.0],[120.86147082335297]
+"c = 247
+b = 224
+c = 212
+if c >= 123 :
+	print(c)
+else :
+	print(c)
+# output",[212.0],[212.0]
+"a = 33
+c = 77
+a = 62
+while a > 61 :
+	print(a)
+	a = a - 1
+# output",[62.0],[62.0]
+"d = 228
+a = d - d
+print(d / 170)
+# output",[1.3411764705882352],[0.1870518387328105]
+"d = 203
+e = 51
+while e <= 52 :
+	print(d)
+	e = e + 1
+# output","[203.0, 203.0]","[203.0, 203.0]"
+"e = 31
+d = 191 * 156
+print(d)
+# output",[29796.0],[15984.0]
+"c = 54
+c = 152
+if c >= 226 :
+	print(c)
+# output",[],[]
+"a = 58
+c = 118
+c = 214
+for c in range(110, 111, 2) :
+	print(a)
+# output",[58.0],[214.0]
+"d = 136
+e = 253
+for e in range(207, 210, 2) :
+	print(d)
+# output","[136.0, 136.0]","[207.0, 209.0]"
+"c = 56
+c = 157
+while c > 152 :
+	print(c)
+	c = c - 2
+# output","[157.0, 155.0, 153.0]","[157.0, 155.0, 153.0]"
+"a = 207
+d = 209
+for d in range(130, 131) :
+	print(d)
+# output",[130.0],[130.0]
+"e = 38
+c = 225
+b = 247
+for c in range(28, 29, 2) :
+	print(b)
+# output",[247.0],[247.0]
+"b = 83
+a = 166 - 103
+print(b + 174)
+# output",[257.0],[142.0]
+"a = 81
+c = 137
+print(a * a)
+# output",[6561.0],[13750.0]
+"b = 130
+for b in range(128, 133, 2) :
+	print(b)
+# output","[128.0, 130.0, 132.0]","[128.0, 130.0, 132.0]"
+"a = 118
+e = 140
+e = 177
+for e in range(176, 181, 3) :
+	print(a)
+# output","[118.0, 118.0]","[167.0, 167.0]"
+"b = 241
+e = 219
+d = 9
+c = d / 197
+print(c)
+# output",[0.04568527918781726],[1.0586866666666668]
+"d = 121
+c = 158
+print(c)
+# output",[158.0],[121.0]
+"c = 51
+d = 40
+c = 246
+for d in range(7, 8) :
+	print(c)
+# output",[246.0],[40.0]
+"a = 248
+c = 251 * a
+print(c)
+# output",[62248.0],[4330.0]
+"e = 191
+c = 238 / e
+print(e + e)
+# output",[382.0],[363.0]
+"d = 110
+d = 192
+while d < 193 :
+	print(d)
+	d = d + 1
+# output",[192.0],[192.0]
+"a = 81
+if  a < 204 :
+	print(a)
+# output",[81.0],[81.0]
+"b = 251
+b = b * b
+print(b * 31)
+# output",[1953031.0],[204440.0]
+"b = 52
+a = 161
+b = 12
+while a >= 158 :
+	print(a)
+	a = a - 2
+# output","[161.0, 159.0]","[12.0, 12.0]"
+"e = 169
+c = 110
+b = 188
+while b > 183 :
+	print(c)
+	b = b - 2
+# output","[110.0, 110.0, 110.0]","[188.0, 186.0, 184.0]"
+"e = 39
+c = 242
+e = 174
+while c <= 245 :
+	print(e)
+	c = c + 2
+# output","[174.0, 174.0]","[242.0, 244.0]"
+"a = 131
+a = 186
+a = 59
+for a in range(10, 15, 3) :
+	print(a)
+# output","[10.0, 13.0]","[59.0, 59.0]"
+"c = 111
+b = 159
+a = 121
+while c < 112 :
+	print(a)
+	c = c + 2
+# output",[121.0],[111.0]
+"c = 121
+d = 57
+d = 158
+for c in range(137, 142) :
+	print(c)
+# output","[137.0, 138.0, 139.0, 140.0, 141.0]","[121.0, 121.0, 121.0, 121.0, 121.0]"
+"d = 201
+a = 82
+while a > 81 :
+	print(d)
+	a = a - 2
+# output",[201.0],"[211.0, 211.0]"
+"e = 248
+d = 152
+while e >= 245 :
+	print(e)
+	e = e - 2
+# output","[248.0, 246.0]","[248.0, 246.0]"
+"e = 178
+for e in range(83, 84, 2) :
+	print(e)
+# output",[83.0],[83.0]
+"d = 235
+b = 49
+e = 215
+while d > 234 :
+	print(e)
+	d = d - 1
+# output",[215.0],[49.0]
+"e = 12
+if e == 172 :
+	print(e)
+elif not e <= 166 :
+	print(e)
+else :
+	print(e)
+# output",[12.0],[121.0]
+"e = 60
+e = 186
+if  e < 254 :
+	print(e)
+# output",[186.0],[60.0]
+"c = 205
+b = 223
+d = 179
+a = c - c
+print(d / b)
+# output",[0.8026905829596412],[1.0]
+"c = 202
+a = 161
+for a in range(97, 102, 3) :
+	print(c)
+# output","[202.0, 202.0]","[97.0, 100.0]"
+"d = 134
+c = 112
+if not c < 15 :
+	print(c)
+else :
+	print(d)
+# output",[112.0],[134.0]
+"a = 115
+d = 195
+a = 81
+if  d != 153 :
+	print(d)
+# output",[195.0],[115.0]
+"d = 49
+for d in range(231, 232) :
+	print(d)
+# output",[231.0],[121.0]
+"e = 172
+c = 31
+a = 61
+for e in range(8, 9, 1) :
+	print(a)
+# output",[61.0],[8.0]
+"e = 203
+a = 223 + e
+print(a)
+# output",[426.0],[312.0]
+"b = 174
+if not b <= 224 :
+	print(b)
+else :
+	print(b)
+# output",[174.0],[174.0]
+"e = 234
+b = 236 - 140
+print(b)
+# output",[96.0],[-37.0]
+"e = 163
+if not e > 152 :
+	print(e)
+elif e == 8 :
+	print(e)
+else :
+	print(e)
+# output",[163.0],[163.0]
+"c = 239
+c = 176
+a = c - c
+print(c / c)
+# output",[1.0],[0.36706801528401733]
+"c = 151
+d = 123
+a = 109
+for d in range(211, 214, 2) :
+	print(c)
+# output","[151.0, 151.0]","[212.0, 212.0]"
+"a = 0
+for a in range(86, 87, 2) :
+	print(a)
+# output",[86.0],[86.0]

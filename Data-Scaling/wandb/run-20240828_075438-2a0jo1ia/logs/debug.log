@@ -1,0 +1,220 @@
+2024-08-28 07:54:38,666 INFO    MainThread:1232403 [wandb_setup.py:_flush():76] Current SDK version is 0.16.5
+2024-08-28 07:54:38,666 INFO    MainThread:1232403 [wandb_setup.py:_flush():76] Configure stats pid to 1232403
+2024-08-28 07:54:38,666 INFO    MainThread:1232403 [wandb_setup.py:_flush():76] Loading settings from /home/mn3620/.config/wandb/settings
+2024-08-28 07:54:38,666 INFO    MainThread:1232403 [wandb_setup.py:_flush():76] Loading settings from /scratch/mn3620/Data-Scaling/wandb/settings
+2024-08-28 07:54:38,666 INFO    MainThread:1232403 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-08-28 07:54:38,666 INFO    MainThread:1232403 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-08-28 07:54:38,666 INFO    MainThread:1232403 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program_abspath': '/scratch/mn3620/Data-Scaling/train.py', 'program': '/scratch/mn3620/Data-Scaling/train.py'}
+2024-08-28 07:54:38,667 INFO    MainThread:1232403 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-08-28 07:54:38,667 INFO    MainThread:1232403 [wandb_init.py:_log_setup():527] Logging user logs to /scratch/mn3620/Data-Scaling/wandb/run-20240828_075438-2a0jo1ia/logs/debug.log
+2024-08-28 07:54:38,667 INFO    MainThread:1232403 [wandb_init.py:_log_setup():528] Logging internal logs to /scratch/mn3620/Data-Scaling/wandb/run-20240828_075438-2a0jo1ia/logs/debug-internal.log
+2024-08-28 07:54:38,667 INFO    MainThread:1232403 [wandb_init.py:init():567] calling init triggers
+2024-08-28 07:54:38,672 INFO    MainThread:1232403 [wandb_init.py:init():574] wandb.init called with sweep_config: {}
+config: {'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <_frozen_importlib_external.SourceFileLoader object at 0x14e3195fb850>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, '__file__': '/scratch/mn3620/Data-Scaling/train.py', '__cached__': None, 'os': <module 'os' (frozen)>, 'time': <module 'time' (built-in)>, 'datetime': <module 'datetime' from '/share/apps/anaconda3/2024.02/lib/python3.11/datetime.py'>, 'pickle': <module 'pickle' from '/share/apps/anaconda3/2024.02/lib/python3.11/pickle.py'>, 'torch': <module 'torch' from '/scratch/mn3620/pfe-best-tlm/venv/lib/python3.11/site-packages/torch/__init__.py'>, 'nn': <module 'torch.nn' from '/scratch/mn3620/pfe-best-tlm/venv/lib/python3.11/site-packages/torch/nn/__init__.py'>, 'F': <module 'torch.nn.functional' from '/scratch/mn3620/pfe-best-tlm/venv/lib/python3.11/site-packages/torch/nn/functional.py'>, 'MultiStepLR': <class 'torch.optim.lr_scheduler.MultiStepLR'>, 'np': <module 'numpy' from '/scratch/mn3620/pfe-best-tlm/venv/lib/python3.11/site-packages/numpy/__init__.py'>, 'tqdm': <class 'tqdm.std.tqdm'>, 'GPT': <class 'model.GPT'>, 'device': device(type='cuda'), 'compile': True, 'wandb_log': True, 'wandb_project': 'TinyLanguageModel', 'DATA_SIZES': ['2M', '4M', '8M', '16M', '32M', '48M', '64M', '96M'], 'MODELS_DIR': '/scratch/mn3620/Data-Scaling/models', 'batch_size': 64, 'block_size': 256, 'num_epochs': 0.1, 'eval_interval': 10000, 'learning_rate': 0.001, 'eval_iters': 1000, 'dropout': 0, 'meta_file': '/scratch/mn3620/Data-Scaling/data/96M/meta.pkl', 'f': <_io.BufferedReader name='/scratch/mn3620/Data-Scaling/data/96M/meta.pkl'>, 'meta': {'vocab_size': 53, 'itos': {0: '\t', 1: '\n', 2: ' ', 3: '!', 4: '#', 5: '(', 6: ')', 7: '*', 8: '+', 9: ',', 10: '-', 11: '.', 12: '/', 13: '0', 14: '1', 15: '2', 16: '3', 17: '4', 18: '5', 19: '6', 20: '7', 21: '8', 22: '9', 23: ':', 24: '<', 25: '=', 26: '>', 27: 'a', 28: 'b', 29: 'c', 30: 'd', 31: 'e', 32: 'f', 33: 'g', 34: 'h', 35: 'i', 36: 'j', 37: 'k', 38: 'l', 39: 'm', 40: 'n', 41: 'o', 42: 'p', 43: 'q', 44: 'r', 45: 's', 46: 't', 47: 'u', 48: 'v', 49: 'w', 50: 'x', 51: 'y', 52: 'z'}, 'stoi': {'\t': 0, '\n': 1, ' ': 2, '!': 3, '#': 4, '(': 5, ')': 6, '*': 7, '+': 8, ',': 9, '-': 10, '.': 11, '/': 12, '0': 13, '1': 14, '2': 15, '3': 16, '4': 17, '5': 18, '6': 19, '7': 20, '8': 21, '9': 22, ':': 23, '<': 24, '=': 25, '>': 26, 'a': 27, 'b': 28, 'c': 29, 'd': 30, 'e': 31, 'f': 32, 'g': 33, 'h': 34, 'i': 35, 'j': 36, 'k': 37, 'l': 38, 'm': 39, 'n': 40, 'o': 41, 'p': 42, 'q': 43, 'r': 44, 's': 45, 't': 46, 'u': 47, 'v': 48, 'w': 49, 'x': 50, 'y': 51, 'z': 52}}, 'stoi': {'\t': 0, '\n': 1, ' ': 2, '!': 3, '#': 4, '(': 5, ')': 6, '*': 7, '+': 8, ',': 9, '-': 10, '.': 11, '/': 12, '0': 13, '1': 14, '2': 15, '3': 16, '4': 17, '5': 18, '6': 19, '7': 20, '8': 21, '9': 22, ':': 23, '<': 24, '=': 25, '>': 26, 'a': 27, 'b': 28, 'c': 29, 'd': 30, 'e': 31, 'f': 32, 'g': 33, 'h': 34, 'i': 35, 'j': 36, 'k': 37, 'l': 38, 'm': 39, 'n': 40, 'o': 41, 'p': 42, 'q': 43, 'r': 44, 's': 45, 't': 46, 'u': 47, 'v': 48, 'w': 49, 'x': 50, 'y': 51, 'z': 52}, 'itos': {0: '\t', 1: '\n', 2: ' ', 3: '!', 4: '#', 5: '(', 6: ')', 7: '*', 8: '+', 9: ',', 10: '-', 11: '.', 12: '/', 13: '0', 14: '1', 15: '2', 16: '3', 17: '4', 18: '5', 19: '6', 20: '7', 21: '8', 22: '9', 23: ':', 24: '<', 25: '=', 26: '>', 27: 'a', 28: 'b', 29: 'c', 30: 'd', 31: 'e', 32: 'f', 33: 'g', 34: 'h', 35: 'i', 36: 'j', 37: 'k', 38: 'l', 39: 'm', 40: 'n', 41: 'o', 42: 'p', 43: 'q', 44: 'r', 45: 's', 46: 't', 47: 'u', 48: 'v', 49: 'w', 50: 'x', 51: 'y', 52: 'z'}, 'encode': <function encode at 0x14e3195da0c0>, 'decode': <function decode at 0x14e2650b9300>, 'get_batch': <function get_batch at 0x14e25a2da8e0>, 'estimate_loss': <function estimate_loss at 0x14e25a2db1a0>, 'calculate_iterations': <function calculate_iterations at 0x14e25a2db240>, 'human_readable': <function human_readable at 0x14e25a2db2e0>, 'size': '2M', 'data_dir': 'data/2M', 'train_file': 'data/2M/train.txt', 'val_file': 'data/2M/val.txt', 'num_iters': 836, 'miles': [585, 668, 752], 'train_data': memmap([28,  2, 25, ...,  2, 21, 18], dtype=uint16), 'val_data': memmap([30,  2, 25, ...,  2, 14, 17], dtype=uint16), 'model': OptimizedModule(
+  (_orig_mod): GPT(
+    (token_embedding_table): Embedding(53, 120)
+    (position_embedding_table): Embedding(256, 120)
+    (blocks): Sequential(
+      (0): Block(
+        (sa): MultiHeadAttention(
+          (heads): ModuleList(
+            (0-5): 6 x Head(
+              (key): Linear(in_features=120, out_features=20, bias=False)
+              (query): Linear(in_features=120, out_features=20, bias=False)
+              (value): Linear(in_features=120, out_features=20, bias=False)
+              (dropout): Dropout(p=0, inplace=False)
+            )
+          )
+          (proj): Linear(in_features=120, out_features=120, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+        (ffwd): FeedForward(
+          (net): Sequential(
+            (0): Linear(in_features=120, out_features=480, bias=False)
+            (1): GELU(approximate='none')
+            (2): Linear(in_features=480, out_features=120, bias=False)
+            (3): Dropout(p=0, inplace=False)
+          )
+        )
+        (ln1): LayerNorm((120,), eps=1e-05, elementwise_affine=True)
+        (ln2): LayerNorm((120,), eps=1e-05, elementwise_affine=True)
+      )
+      (1): Block(
+        (sa): MultiHeadAttention(
+          (heads): ModuleList(
+            (0-5): 6 x Head(
+              (key): Linear(in_features=120, out_features=20, bias=False)
+              (query): Linear(in_features=120, out_features=20, bias=False)
+              (value): Linear(in_features=120, out_features=20, bias=False)
+              (dropout): Dropout(p=0, inplace=False)
+            )
+          )
+          (proj): Linear(in_features=120, out_features=120, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+        (ffwd): FeedForward(
+          (net): Sequential(
+            (0): Linear(in_features=120, out_features=480, bias=False)
+            (1): GELU(approximate='none')
+            (2): Linear(in_features=480, out_features=120, bias=False)
+            (3): Dropout(p=0, inplace=False)
+          )
+        )
+        (ln1): LayerNorm((120,), eps=1e-05, elementwise_affine=True)
+        (ln2): LayerNorm((120,), eps=1e-05, elementwise_affine=True)
+      )
+      (2): Block(
+        (sa): MultiHeadAttention(
+          (heads): ModuleList(
+            (0-5): 6 x Head(
+              (key): Linear(in_features=120, out_features=20, bias=False)
+              (query): Linear(in_features=120, out_features=20, bias=False)
+              (value): Linear(in_features=120, out_features=20, bias=False)
+              (dropout): Dropout(p=0, inplace=False)
+            )
+          )
+          (proj): Linear(in_features=120, out_features=120, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+        (ffwd): FeedForward(
+          (net): Sequential(
+            (0): Linear(in_features=120, out_features=480, bias=False)
+            (1): GELU(approximate='none')
+            (2): Linear(in_features=480, out_features=120, bias=False)
+            (3): Dropout(p=0, inplace=False)
+          )
+        )
+        (ln1): LayerNorm((120,), eps=1e-05, elementwise_affine=True)
+        (ln2): LayerNorm((120,), eps=1e-05, elementwise_affine=True)
+      )
+      (3): Block(
+        (sa): MultiHeadAttention(
+          (heads): ModuleList(
+            (0-5): 6 x Head(
+              (key): Linear(in_features=120, out_features=20, bias=False)
+              (query): Linear(in_features=120, out_features=20, bias=False)
+              (value): Linear(in_features=120, out_features=20, bias=False)
+              (dropout): Dropout(p=0, inplace=False)
+            )
+          )
+          (proj): Linear(in_features=120, out_features=120, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+        (ffwd): FeedForward(
+          (net): Sequential(
+            (0): Linear(in_features=120, out_features=480, bias=False)
+            (1): GELU(approximate='none')
+            (2): Linear(in_features=480, out_features=120, bias=False)
+            (3): Dropout(p=0, inplace=False)
+          )
+        )
+        (ln1): LayerNorm((120,), eps=1e-05, elementwise_affine=True)
+        (ln2): LayerNorm((120,), eps=1e-05, elementwise_affine=True)
+      )
+      (4): Block(
+        (sa): MultiHeadAttention(
+          (heads): ModuleList(
+            (0-5): 6 x Head(
+              (key): Linear(in_features=120, out_features=20, bias=False)
+              (query): Linear(in_features=120, out_features=20, bias=False)
+              (value): Linear(in_features=120, out_features=20, bias=False)
+              (dropout): Dropout(p=0, inplace=False)
+            )
+          )
+          (proj): Linear(in_features=120, out_features=120, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+        (ffwd): FeedForward(
+          (net): Sequential(
+            (0): Linear(in_features=120, out_features=480, bias=False)
+            (1): GELU(approximate='none')
+            (2): Linear(in_features=480, out_features=120, bias=False)
+            (3): Dropout(p=0, inplace=False)
+          )
+        )
+        (ln1): LayerNorm((120,), eps=1e-05, elementwise_affine=True)
+        (ln2): LayerNorm((120,), eps=1e-05, elementwise_affine=True)
+      )
+      (5): Block(
+        (sa): MultiHeadAttention(
+          (heads): ModuleList(
+            (0-5): 6 x Head(
+              (key): Linear(in_features=120, out_features=20, bias=False)
+              (query): Linear(in_features=120, out_features=20, bias=False)
+              (value): Linear(in_features=120, out_features=20, bias=False)
+              (dropout): Dropout(p=0, inplace=False)
+            )
+          )
+          (proj): Linear(in_features=120, out_features=120, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+        (ffwd): FeedForward(
+          (net): Sequential(
+            (0): Linear(in_features=120, out_features=480, bias=False)
+            (1): GELU(approximate='none')
+            (2): Linear(in_features=480, out_features=120, bias=False)
+            (3): Dropout(p=0, inplace=False)
+          )
+        )
+        (ln1): LayerNorm((120,), eps=1e-05, elementwise_affine=True)
+        (ln2): LayerNorm((120,), eps=1e-05, elementwise_affine=True)
+      )
+    )
+    (ln_f): LayerNorm((120,), eps=1e-05, elementwise_affine=True)
+    (lm_head): Linear(in_features=120, out_features=53, bias=True)
+  )
+), 'optimizer': AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    initial_lr: 0.001
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.01
+), 'scheduler': <torch.optim.lr_scheduler.MultiStepLR object at 0x14e23d0e3910>, 'num_parameters': 1082573, 'num_parameters_hr': '1M', 'start_time': 1724845932.2069993, 'iter': 0, 'losses': {'train': tensor(4.0822), 'val': tensor(4.0822)}, 'wandb': <module 'wandb' from '/scratch/mn3620/pfe-best-tlm/venv/lib/python3.11/site-packages/wandb/__init__.py'>}
+2024-08-28 07:54:38,676 INFO    MainThread:1232403 [wandb_init.py:init():617] starting backend
+2024-08-28 07:54:38,676 INFO    MainThread:1232403 [wandb_init.py:init():621] setting up manager
+2024-08-28 07:54:38,678 INFO    MainThread:1232403 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-08-28 07:54:38,711 INFO    MainThread:1232403 [wandb_init.py:init():629] backend started and connected
+2024-08-28 07:54:38,721 INFO    MainThread:1232403 [wandb_init.py:init():721] updated telemetry
+2024-08-28 07:54:38,722 INFO    MainThread:1232403 [wandb_init.py:init():754] communicating run to backend with 90.0 second timeout
+2024-08-28 07:54:39,064 ERROR   MainThread:1232403 [wandb_init.py:init():1215] error
+Traceback (most recent call last):
+  File "/scratch/mn3620/pfe-best-tlm/venv/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1187, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "/scratch/mn3620/pfe-best-tlm/venv/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 756, in init
+    run_init_handle = backend.interface.deliver_run(run)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mn3620/pfe-best-tlm/venv/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 731, in deliver_run
+    run_record = self._make_run(run)
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mn3620/pfe-best-tlm/venv/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 150, in _make_run
+    self._make_config(data=config_dict, obj=proto_run.config)
+  File "/scratch/mn3620/pfe-best-tlm/venv/lib/python3.11/site-packages/wandb/sdk/interface/interface.py", line 132, in _make_config
+    update.value_json = json_dumps_safer(json_friendly(v)[0])
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/mn3620/pfe-best-tlm/venv/lib/python3.11/site-packages/wandb/util.py", line 831, in json_dumps_safer
+    return dumps(obj, cls=WandBJSONEncoder, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/share/apps/anaconda3/2024.02/lib/python3.11/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "/share/apps/anaconda3/2024.02/lib/python3.11/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/share/apps/anaconda3/2024.02/lib/python3.11/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/scratch/mn3620/pfe-best-tlm/venv/lib/python3.11/site-packages/wandb/util.py", line 782, in default
+    return json.JSONEncoder.default(self, obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/share/apps/anaconda3/2024.02/lib/python3.11/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type module is not JSON serializable
+2024-08-28 07:54:40,109 WARNING MsgRouterThr:1232403 [router.py:message_loop():77] message_loop has been closed
